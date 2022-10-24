@@ -8,3 +8,4 @@ elif sayi1 == 0:
 
 else:
     print("Girdiğiniz sayı tektir.")
+
