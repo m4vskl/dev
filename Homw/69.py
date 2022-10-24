@@ -16,13 +16,13 @@ menum = {
 while durum == 1:
     # girilen yemek menüde var ise dict içindeki karşılığını toplam adlı değişkene int olarak ekle dedik.
     if food in menum:
-    print(menum[food])
-    toplam += int(menum[food])
+        print(menum[food])
+        toplam += int(menum[food])
 
     elif food == "$":# $ işareti girildiğinde durum =0 diyerek döngüyü durdurduk ve toplam fiyatı yazdırdık
-    print(toplam)
-    durum=0
+        print(toplam)
+        durum=0
 
     else:
 
-    print("Aradığınız kelime Sözlükte bulunamadı")
+        print("Aradığınız kelime Sözlükte bulunamadı.")
