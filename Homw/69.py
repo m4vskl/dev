@@ -25,4 +25,4 @@ while durum == 1:
 
     else:
 
-        print("Aradığınız kelime Sözlükte bulunamadı.")
+        print("Aradığınız kelime Sözlükte bulunamadı")
