@@ -9,3 +9,6 @@ def koordinat(x1,y1,x2,y2):
     print("İki nokta arası uzaklık: ", uzaklik)
 
 koordinat(x1,y1,x2,y2)
+
+# her noktanın x ve ye değerlerini ayrı ayrı aldık. 
+# bir fonksiyon yardımıyla iki nokta arası uzaklık formülünü yazdık.

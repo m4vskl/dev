@@ -4,6 +4,7 @@ sinema = 49.5
 tiyatro = 29.8
 fiyat = 0
 ind = 0
+# Öğrenci olursa indirim çarpanı 0.5 yani %50 indirim, öğrenci değilse 1 olacak olacak. Bu da fiyatta bir değişikliğe yol açmayacak.
 ind_durum = input("Öğrenci misiniz ? EVET/HAYIR \n ")
 if ind_durum == "EVET":
     print("%50 indirimden faydalanabilirsiniz.")
