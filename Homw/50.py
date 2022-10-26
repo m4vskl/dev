@@ -5,6 +5,6 @@
 salary = float(input("Maaş tutarı: "))
 kid = float(input("Çocuk sayısı: "))
 
-extra = (salary*(kid*5))/100
+extra = (salary*(kid*5))/100 # çocuk yardımı miktarı
 salaryn = extra + salary
 print(salaryn)

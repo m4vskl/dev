@@ -1,4 +1,3 @@
-# 44-Klavyeden girilen sayının faktoryelini al
 
 num1 = int(input("Enter digit: "))
 fac = 1

@@ -1,4 +1,3 @@
-# 43-while döngüsü ile liste öğlerin ortalamasını hesapla ve ortalamanın yanına listeden kaç eleman olduğunu yazdır 
 mylist = [12, 35, 98, 78, 52, 0, 47]
 
 len(mylist)

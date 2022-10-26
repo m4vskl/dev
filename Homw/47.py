@@ -1,13 +1,13 @@
-# 47-Bir ürünü alış fiyatı üzerinden klavyeden vergi oranı(%18 KDV) ve kar oranı eklenerek satış fiyatına hesapla
+
 prodc = 98
 print("Ürünün alış fiyatı 98 TL'dir.")
 
 tax = float(input("Vergi oranı: "))
 
-taxp = (prodc*tax)/100
+taxp = (prodc*tax)/100 # üründeki vergi miktarı
 prodc = taxp + prodc
 profit = float(input(("Yüzde kaç kar etmek istiyorsunuz: ")))
 
-profitp = (prodc*profit)/100
+profitp = (prodc*profit)/100 # üründeki kar miktarı
 prodc = profitp + prodc
 print(prodc)

@@ -1,4 +1,3 @@
-# 46- ax²+bx+c=0 şeklinde verilen 2. derece denklemin köklerini bul
 print("ax²+bx+c şeklindeki denklemin a, b ve c katsayılarını giriniz: ")
 a = int(input("a: "))
 b = int(input("b: "))

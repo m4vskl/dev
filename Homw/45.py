@@ -1,4 +1,3 @@
-# 45-Klavyeden girilen fahrenheit değerini celciusa çevir.
 
 fahr = float(input("Enter the fahrenheit: "))
 

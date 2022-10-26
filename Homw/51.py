@@ -3,7 +3,7 @@
 #  olarak hesaplanacak buna göre bilgileri alınarak ödenecek tutarı yazdır 
 #  saat başı ücret = 45 TL
 
-forhr= 45
+forhr= 45 # for hour, saatlik ücret
 timee = float(input("Kaç saat çalıştınız: "))
 salary = 0
 
@@ -12,6 +12,6 @@ if timee < 40:
     print(salary)
 
 elif timee >= 40:
-    extr = (timee-40)*2
+    extr = (timee-40)*2 # mesailerin süresini ikiyle çarptık. çünkü mesai süresince çalışılan her bir saatin 2 saat sayılmasını istiyoruz.
     salary = ((timee + extr)* forhr)
     print(salary)
